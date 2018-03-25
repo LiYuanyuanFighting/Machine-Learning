@@ -11,6 +11,7 @@ What is better split? Better split will give lower classification error.
 ![imgur2](https://i.imgur.com/0Q7pDJk.png)   
 ![imgur3](https://i.imgur.com/dq4COfl.png)  
 So splitting on credit gives better result, then Credit will be first selection.  
+
 **Feature split selection algorithm**   
 1. Given a subset of data M (a node in a tree) . 
 2. For each feature hi(x):  
@@ -22,7 +23,8 @@ The algorithm selection is also based on type of target variables, there is deta
 **When to stop splitting? When should a node be declared a leaf?** . 
 1. All data in the same nodes have same class value (No classification error).  
 2. All data in the same nodes have the same attribute value (x1,...,xm), return  
-a leaf node that predicts the majority of the class values as output
+a leaf node that predicts the majority of the class values as output  
+
 **If the tree is too large, how can it be pruned?**  
 There are pre-pruning (stops growing the tree earlier, before it perfectly classifies the training set)   
 and post-pruning (allows the tree to perfectly classify the training set, and then post prune the tree)  
