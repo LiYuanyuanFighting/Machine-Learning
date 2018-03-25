@@ -17,7 +17,7 @@ So splitting on credit gives better result, then Credit will be first selection.
   1). Split data of M according to feature hi(x)
   2). Compute classification error split
 3. Choose feature h*(x) with lowest classification error .   
-The algorithm selection is also based on type of target variables, there is detailed explanation in the [link](https://clearpredictions.com/Home/DecisionTree).  
+The algorithm selection is also based on type of target variables, there is detailed explanation in the [link](https://clearpredictions.com/Home/DecisionTree).     
 **When to stop splitting? When should a node be declared a leaf?** . 
 1. All data in the same nodes have same class value (No classification error).  
 2. All data in the same nodes have the same attribute value (x1,...,xm), return  
