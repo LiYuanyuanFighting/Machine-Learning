@@ -34,5 +34,12 @@ nodes from the tree.
 If someone interested in the implementation from scratch in python, can check the article  
 [How To Implement The Decision Tree Algorithm From Scratch In Python](https://machinelearningmastery.com/implement-decision-tree-algorithm-scratch-python/)  
 
+### Random Forest ###  
+With decision tree, it easily leads to over-fitting and a deep tree is often [low bias, high variance](https://www.zhihu.com/question/27068705). Because Random Forest gets the average value from multiple  
+decision trees, it can significantly reduces variance to avoid overfitting.  
+Since random forest uses bagging algorithm. Let's see how bagging algorithm is working first.  
+The full name of bagging is called bootstrap aggregating. See the detailed explanation of bootstrap [here](https://machinelearningmastery.com/bagging-and-random-forest-ensemble-algorithms-for-machine-learning/).  
+
+To do....
 
 
