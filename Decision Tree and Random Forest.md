@@ -11,7 +11,7 @@ What is better split? Better split will give lower classification error.
 ![imgur2](https://i.imgur.com/0Q7pDJk.png)   
 ![imgur3](https://i.imgur.com/dq4COfl.png)  
 So splitting on credit gives better result, then Credit will be first selection.  
-**Feature split selection algorithm** . 
+**Feature split selection algorithm**   
 1. Given a subset of data M (a node in a tree) . 
 2. For each feature hi(x):  
   1). Split data of M according to feature hi(x)
