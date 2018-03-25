@@ -4,7 +4,7 @@ and a mapping function from input to the output). It is a tree like structure, e
 node (stands for a group of data sets) is split into two or more homogeneous set basing on splitting   
 rule.   
 #### How to choose the attribute/value to split on at each level of the tree? #### . 
-![Imgur1](https://i.imgur.com/fuIkOnL.png=80*20) . 
+<img src="https://i.imgur.com/fuIkOnL.png" alt="Imgur1" style="width: 200px;"/>
 What is better split? Better split will give lower classification error.  
 **Idea:** Calculate classification error of this decision stump.  
 ![Imgur2](https://i.imgur.com/0Q7pDJk.png=80*20) . 
