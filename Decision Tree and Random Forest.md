@@ -7,8 +7,8 @@ rule.
 ![Imgur1](https://i.imgur.com/fuIkOnL.png) . 
 What is better split? Better split will give lower classification error.  
 **Idea:** Calculate classification error of this decision stump.  
-![Imgur2](https://i.imgur.com/0Q7pDJk.png) . 
-![Imgur3](https://i.imgur.com/dq4COfl.png) . 
+![Imgur2](https://i.imgur.com/0Q7pDJk.png=100*20) . 
+![Imgur3](https://i.imgur.com/dq4COfl.png=100*20) . 
 So splitting on credit gives better result, then Credit will be first selection.  
 **Feature split selection algorithm** . 
 1. Given a subset of data M (a node in a tree) . 
