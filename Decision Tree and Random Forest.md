@@ -1,4 +1,4 @@
-### What is Decision Tree? ### . 
+### What is Decision Tree? ###    
 Decision tree is a type of supervised learning algorithm (having both input and output variable  
 and a mapping function from input to the output). It is a tree like structure, each time the tree  
 node (stands for a group of data sets) is split into two or more homogeneous set basing on splitting   
