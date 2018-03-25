@@ -4,13 +4,12 @@ and a mapping function from input to the output). It is a tree like structure, e
 node (stands for a group of data sets) is split into two or more homogeneous set basing on splitting   
 rule.   
 #### How to choose the attribute/value to split on at each level of the tree? ####  
-<img src="https://i.imgur.com/fuIkOnL.png" alt="Imgur1" style="width: 200px;"/>
+
+<img src="https://i.imgur.com/fuIkOnL.png" alt="Imgur1" style="width: 180px;"/>  
 What is better split? Better split will give lower classification error.  
 **Idea:** Calculate classification error of this decision stump.  
-<img src="https://i.imgur.com/0Q7pDJk.png" alt="Imgur2" style="width: 200px;"/>
-![Imgur2](https://i.imgur.com/0Q7pDJk.png=80*20) . 
-<img src="https://i.imgur.com/dq4COfl.png" alt="Imgur2" style="width: 200px;"/>
-![Imgur3](https://i.imgur.com/dq4COfl.png=80*20) . 
+<img src="https://i.imgur.com/0Q7pDJk.png" alt="Imgur2" style="width: 180px;"/>    
+<img src="https://i.imgur.com/dq4COfl.png" alt="Imgur2" style="width: 180px;"/>  
 So splitting on credit gives better result, then Credit will be first selection.  
 **Feature split selection algorithm** . 
 1. Given a subset of data M (a node in a tree) . 
