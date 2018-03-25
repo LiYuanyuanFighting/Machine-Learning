@@ -1,14 +1,14 @@
-###What is Decision Tree?### . 
+### What is Decision Tree? ### . 
 Decision tree is a type of supervised learning algorithm (having both input and output variable  
 and a mapping function from input to the output). It is a tree like structure, each time the tree  
 node (stands for a group of data sets) is split into two or more homogeneous set basing on splitting   
 rule.   
-####How to choose the attribute/value to split on at each level of the tree?#### . 
-[Imgur1](https://i.imgur.com/fuIkOnL.png) . 
+#### How to choose the attribute/value to split on at each level of the tree? #### . 
+![Imgur1](https://i.imgur.com/fuIkOnL.png) . 
 What is better split? Better split will give lower classification error.  
 **Idea:** Calculate classification error of this decision stump.  
-[Imgur2](https://i.imgur.com/0Q7pDJk.png) . 
-[Imgur3](https://i.imgur.com/dq4COfl.png) . 
+![Imgur2](https://i.imgur.com/0Q7pDJk.png) . 
+![Imgur3](https://i.imgur.com/dq4COfl.png) . 
 So splitting on credit gives better result, then Credit will be first selection.  
 **Feature split selection algorithm** . 
 1. Given a subset of data M (a node in a tree) . 
