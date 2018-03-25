@@ -5,11 +5,11 @@ node (stands for a group of data sets) is split into two or more homogeneous set
 rule.   
 #### How to choose the attribute/value to split on at each level of the tree? ####  
 
-<img src="https://i.imgur.com/fuIkOnL.png" alt="Imgur1" style="width: 180px;"/>  
+![imgur1](https://i.imgur.com/fuIkOnL.png)  
 What is better split? Better split will give lower classification error.  
 **Idea:** Calculate classification error of this decision stump.  
-<img src="https://i.imgur.com/0Q7pDJk.png" alt="Imgur2" style="width: 180px;"/>    
-<img src="https://i.imgur.com/dq4COfl.png" alt="Imgur2" style="width: 180px;"/>  
+![imgur2](https://i.imgur.com/0Q7pDJk.png)   
+![imgur3](https://i.imgur.com/dq4COfl.png)  
 So splitting on credit gives better result, then Credit will be first selection.  
 **Feature split selection algorithm** . 
 1. Given a subset of data M (a node in a tree) . 
